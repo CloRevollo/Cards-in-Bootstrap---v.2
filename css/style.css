@@ -1,0 +1,101 @@
+/* CSS de TARJETAS de SERVICIOS */
+
+.titulo-servicios {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fila{
+    padding: 25px;
+    justify-items: center;
+}
+
+.columna{
+    padding: 10px;
+    text-align: center;
+    text-justify: distribute;
+}
+
+.tarjeta {
+    background: linear-gradient(white 50%, var(--bs-orange)50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 20px;
+    line-height: 1.75;
+    letter-spacing: 0.03em;
+}
+
+.rounded-wrapper {
+    background-color: var(--bs-orange);
+    position: relative;
+    margin: auto;
+    font-size: 1.5em;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+    color: white;
+}
+
+.icon {
+    color: white;
+    vertical-align: -0.125rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--bs-orange);
+    padding-top: 30px;
+}
+
+.card-text {
+    color: black;
+    font-size: 1em;
+    line-height: 1.75;
+    letter-spacing: 0.03em;
+    padding-top: 30px;
+}
+
+.card-link {
+    color: var(--bs-orange);
+    display: block;
+    text-align: end;
+}
+
+.tarjeta:hover{
+    background-position: 0 100%;
+}
+
+.tarjeta:hover .rounded-wrapper {
+    background-color: white;
+    color: var(--bs-orange);
+}
+
+.tarjeta:hover h3 {
+    color: white;
+}
+
+.tarjeta:hover p {
+    color: white;
+}
+
+.tarjeta:hover i {
+    color: var(--bs-orange);
+}
+
+.tarjeta:hover a {
+    color: white;
+}
+
+/* FIN > CSS de TARJETAS de SERVICIOS */
+
+
